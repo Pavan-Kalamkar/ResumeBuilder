@@ -1,0 +1,78 @@
+.sidenav{
+    width: 100%;
+    height: 100%;
+    background-color:#212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*SideNav Container */
+.sidenav-cont{
+    width: 100%;
+    height: 85%;
+}
+
+.links{
+    width: 100%;
+    height: 70%;
+    padding: 20px;
+}
+
+.buttons{
+    width: 100%;
+    height: 30%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Link{
+    font-size: 16px;
+    font-family: "Roboto";
+    color: whitesmoke;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.Link:hover{
+    background-color: #343a40;
+}
+.Link i{
+    margin-right: 20px;
+}
+
+.Link{
+    margin-top: 25px;
+    padding-left: 20px;
+}
+
+.buttons button{
+    font-size: 16px;
+    font-family: "Roboto";
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    padding-left: 20px;
+    text-decoration: none;
+    border: none;
+    background-color:#212529;
+    color: whitesmoke;
+}
+.buttons button i{
+    margin-right: 20px;
+}
+
+.buttons button:hover{
+    background-color: #343a40;
+}

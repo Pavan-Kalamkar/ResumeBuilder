@@ -1,0 +1,28 @@
+.home-container{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background-color: #e9ecef;
+}
+.home-sidenav{
+    width: 18%;
+    height: 100vh;
+    background-color:#212529;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.home-login{
+    width: 82%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: #e9ecef;
+}
